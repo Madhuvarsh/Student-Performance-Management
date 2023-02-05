@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>Web Technology</title>
+</head>
+<body>
+  <style>
+    body {
+      background-image: url('https://img.freepik.com/free-vector/yelow-linen-texture_1053-186.jpg?w=740&t=st=1675184014~exp=1675184614~hmac=4f75d41fd20a632e78c794d5a573f21105922c57d2df24d806d875819ef43e39');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    </style>
+<h1 style="text-align:center;font-size:22;font-style: oblique;">STUDENT PERFORMANCE MANAGEMENT</h1>
+<table BORDER=2 CELLSPACING=5 CELLPADDING=5>
+  <tr>
+    <th><font color="blue">S.No</font></th>
+    <th><font color="blue">Roll.No</font></th>
+    <th><font color="blue">Name</font></th>
+    <th><font color="blue">Department</font></th>
+    <th><font color="blue">Mail ID</font></th>
+    <th><font color="blue">YearOfStudy</font></th>
+    <th><font color="blue">Attendance%</font></th>
+    <th><font color="blue">CGPA</font></th>
+    <th><font color="blue">SAP Points</font></th>
+    <th><font color="blue">Performance</font></th>
+  </tr>
+    <tr>
+      <td>1.</td>
+      <td>21ITR001</td>
+      <td>Abinaya</td>
+      <td rowspan=6>Information Technology</td>
+      <td>abinayak.21it@kongu.edu</td>
+      <td rowspan="6">2021-2025</td>
+      <td>90</td>
+      <td>8.05</td>
+      <td>5</td>
+      <td>Good</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>21ITR028</td>
+      <td>Geethapriya</td>
+      <td>geethapriyae.21it@kongu.edu</td>
+      <td>99</td>
+      <td>9.0</td>
+      <td>5</td>
+      <td>Very Good</td>
+    </tr>
+    <tr>
+       <td>3.</td>
+       <td>21ITR049</td>
+       <td>Karishma</td>
+       <td>karishmaks.21it@kongu.edu</td>
+       <td>96</td>
+       <td>8.05</td>
+       <td>5</td>
+       <td>Good</td>
+    </tr>
+    <tr>
+        <td>4.</td>
+        <td>21ITR053</td>
+        <td>Kirsa</td>
+        <td>kirsaa.21it@kongu.edu</td>
+        <td>94</td>
+        <td>8.05</td>
+        <td>5</td>
+        <td>Good</td>
+    </tr>
+    <tr>
+        <td>5.</td>
+        <td>21ITR056</td>
+        <td>Lakshmipraba</td>
+        <td>lakshmiprabas.21it@kongu.edu</td>
+        <td>95</td>
+        <td>8.34</td>
+        <td>5</td>
+        <td>Very Good</td>
+    </tr>
+    <tr>
+        <td>6.</td>
+        <td>21ITR057</td>
+        <td>MadhuVarshini</td>
+        <td>madhuvarshinik.21it@kongu.edu</td>
+        <td>96</td>
+        <td>8.47</td>
+        <td>5</td>
+        <td>Very Good</td>
+    </tr>
+<fieldset><legend>Student data</legend>
+<form>
+<p><label for=n>Roll.No</label>
+<input type=text id=n/></p>
+<p>Name:<input type=text/></p>
+<label for="Department">Department:</label>
+  <select name="Department" id="Department">
+    <option value=" "> </option>
+    <option value="IT">IT</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+  </select>
+<p><label for="Gender">Gender:</label>
+    <input type="radio" id="male">Male</option>
+    <input type="radio" id="female">Female</option>
+  </select></p>
+<p>Mail ID:<input type=email/></p>
+<p>YearOfStudy:<input type=text></p>
+<p>Attendance%:<input type=text/></p>
+<p>CGPA:<input type=text/></p>
+<p>SAP Points:<input type=text/></p>
+<p>Performance:<input type=text/></p>
+<button type="button" onclick="alert('Successfully Submitted')">Submit</button>
+</form>
+</fieldset>
+</body>
+</html>
